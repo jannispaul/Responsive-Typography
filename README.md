@@ -1,9 +1,8 @@
 # Responsive Typography Website
 
-This website aims to collect the most relevant practices around responsive typography on the web and serve as a quick reference for implementing them. It was created as part Projekt 2b (Masters Digital Media) at the TH Brandenburg.
+This website aims to collect the most relevant practices around responsive typography on the web and serve as a quick reference for implementing them. It was created as part Projekt 2b (Master Digital Media) at the TH Brandenburg in 2021.
 
 The project doesn't have any dependencies and doesn't use thirdparty code unless marked otherwise. Just plain HTML/CSS/JS.
-It is
 
 ## Sources
 
