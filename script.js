@@ -1,3 +1,5 @@
+// This script is part of the blog post "How to Make an Embedded Pen Resizeable"
+// Source: https://blog.codepen.io/2017/05/01/make-embedded-pen-resizeable/
 // This is the callback from CodePen's embed script, ei.js
 function __CodePenIFrameAddedToPage() {
   makeEmbedsResizeable();
