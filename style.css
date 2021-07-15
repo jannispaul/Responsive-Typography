@@ -106,7 +106,6 @@ li::before {
   border-radius: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-right: 0.5rem;
 }
 li.pro::before {

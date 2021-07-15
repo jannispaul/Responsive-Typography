@@ -27,6 +27,16 @@
                     on <a href="https://codepen.io">CodePen</a>.</span>
             </p>
             <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p>
+                The <span class="code-span"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow" target="_blank"
+                        rel="noopener noreferrer">text-overlfow</a></span> property can be set to<span
+                    class="code-span">ellipsis</span> to indicate that the text doesn't fit in it's parent.
+            </p>
+            <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide" target="_blank"
+                    rel="noopener noreferrer">Variable fonts</a> allow for variations within a font. Depending on the font, it may
+                be able replace multiple font-files, styles or come with other features that could be useful for responsive
+                typography like an adjustable x-height. <a href="https://fonts.google.com/variablefonts" target="_blank"
+                    rel="noopener noreferrer">Checkout googles list of variable fonts</a>.</p>
         </section>
         <section>
             <h2>Loading Fonts</h2>
@@ -102,9 +112,9 @@
         </section>
         <section>
             <h2>Fluid Typography</h2>
-            <p>For full control over that layout, the font-size can be set with relative <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units" target="_blank"
+            <p>For full control over the layout, the font-size can be set with relative <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units" target="_blank"
                 rel="noreferrer noopener">units</a> like vh, vw, or vmin. Now the typography
-            scales fluidly between screen sizes but can not be easily changed by the user.</p>
+            scales fluidly and retains the width-based layout between screen sizes but can not be easily changed by the user.</p>
             <ul class="args">
                 <li class="pro">Layout control</li>
                 <li class="pro">Consistency</li>
@@ -122,6 +132,12 @@
             <p>Or combine that approach with <span class="code-span">
                 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()" target="_blank" rel="noopener noreferrer">clamp()</a>
             </span> to automatically set min and max values for the font sizes. No media query needed.</p>
+            <ul class="args">
+                <li class="pro">Consistency</li>
+                <!-- <li class="pro">Simplicity</li> -->
+                <li class="contra">Accessibility</li>
+                <li class="contra">Layout control</li>
+            </ul>
             <p class="codepen" data-height="300" data-theme-id="light" data-default-tab="css,result" data-slug-hash="rNmyaEY"
                 data-editable="true" data-user="jay99"
                 style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -132,16 +148,8 @@
             <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
         </section>
         <section>
-            <h2>Other Responsive Type Features</h2>
-            <p>
-                The <span class="code-span"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow" target="_blank" rel="noopener noreferrer">text-overlfow</a></span> property can be set to<span class="code-span">ellipsis</span> to indicate that the text doesn't fit in it's parent.
-            </p>
-            <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide" target="_blank" rel="noopener noreferrer">Variable fonts</a> allow for multple variantions in a font. Depending on the font, it may be able replace multiple font-files, styles or come with other features that could be useful for responsive typography like an adjustable x-height. <a href="https://fonts.google.com/variablefonts" target="_blank" rel="noopener noreferrer">Checkout googles list of variable fonts</a>.</p>
-            
-        </section>
-        <section>
             <h2>Further Readings & Source</h2>
-            <p>For the creation of the site I mostly relied on the Mozilla docs but also researched articles covering the topic.</p>
+            <p>For the creation of this site I mostly relied on the Mozilla docs but also researched articles covering the topic:</p>
             <ul class="sources">
                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/en-US/docs/Web/CSS/</a></li>
                 <li><a href="https://stevenloria.com/responsive-typography/" target="_blank" rel="noopener noreferrer">https://stevenloria.com/responsive-typography/</a></li>

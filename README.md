@@ -1,4 +1,4 @@
-# Responsive Typography Website
+# Responsive Typography Quick Reference
 
 This website was created as part of Projekt 2b (Master Digital Media) at the TH Brandenburg in 2021. It aims to collect the most relevant practices around responsive typography on the web and serve as a quick reference for implementing them.
 
