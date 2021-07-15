@@ -2,9 +2,9 @@
 
 This website was created as part of Projekt 2b (Master Digital Media) at the TH Brandenburg in 2021. It aims to collect the most relevant practices around responsive typography on the web and serve as a quick reference for implementing them.
 
-Public github repository: https://github.com/jannispaul/Responsive-Typography
-Live site: https://responsive-type.vercel.app/
-Collection of code snippets: https://codepen.io/collection/jbOzgK
+Public github repository: https://github.com/jannispaul/Responsive-Typography  
+Live site: https://responsive-type.vercel.app/  
+Collection of code snippets: https://codepen.io/collection/jbOzgK  
 
 To run the site locally please use the development server of your choice. For example: https://www.npmjs.com/package/local-web-server
 
