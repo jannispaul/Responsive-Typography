@@ -67,9 +67,22 @@ small,
 /*
 Main Styles
 */
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #000;
+  padding-top: 1rem;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 .container {
   max-width: 740px;
-  padding: 0 1rem;
+  padding: 0 1.2rem;
   margin: auto;
 }
 .intro {

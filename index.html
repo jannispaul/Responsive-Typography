@@ -18,7 +18,7 @@
         </section>
         <section>
             <h2>The Basics</h2>
-            <p>Let’s get started with the general type settings: Choose your typeface with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family" target="_blank" rel="noreferrer noopener">font-family</a>, set the size of you text using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size" target="_blank" rel="noreferrer noopener">font-size</a> and the weight with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight" target="_blank" rel="noreferrer noopener">font-weight</a>. For kerning or tracking there is <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing" target="_blank" rel="noreferrer noopener">letter-spacing</a> while the leading can be set with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height" target="_blank" rel="noreferrer noopener">line-height</a>. With <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style" target="_blank" rel="noreferrer noopener">font-style</a> you can choose a normal or italic face and the shorthand property <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font" target="_blank" rel="noreferrer noopener">font</a> allows you to combine all of the above. With <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="_blank" rel="noreferrer noopener">color</a> you can give your text any color, just make sure the <a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noreferrer noopener">contrast</a> to the background is high enough to pass accessibility standards.</p>
+            <p>Let’s get started with the general type settings: Choose your typeface with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family" target="_blank" rel="noreferrer noopener">font-family</a>, set the size of your text using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size" target="_blank" rel="noreferrer noopener">font-size</a> and the weight with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight" target="_blank" rel="noreferrer noopener">font-weight</a>. For kerning or tracking there is <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing" target="_blank" rel="noreferrer noopener">letter-spacing</a>, and the leading can be set with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height" target="_blank" rel="noreferrer noopener">line-height</a>. With <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style" target="_blank" rel="noreferrer noopener">font-style</a> you can choose a normal or italic face and the shorthand property <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font" target="_blank" rel="noreferrer noopener">font</a> allows you to combine all of the above. With <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="_blank" rel="noreferrer noopener">color</a> you can give your text any color, just make sure the <a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noreferrer noopener">contrast</a> to the background is high enough to pass accessibility standards.</p>
             <p class="codepen" data-height="300" data-theme-id="light" data-default-tab="css,result" data-slug-hash="yLMdEJZ"
                 data-editable="true" data-user="jay99"
                 style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -28,19 +28,18 @@
             </p>
             <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
             <p>
-                The <span class="code-span"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow" target="_blank"
-                        rel="noopener noreferrer">text-overlfow</a></span> property can be set to<span
+                Another helpful feature that might come in handy on smaller screens is the <span class="code-span"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow" target="_blank"
+                        rel="noopener noreferrer">text-overlfow</a></span> property, which can be set to<span
                     class="code-span">ellipsis</span> to indicate that the text doesn't fit in it's parent.
             </p>
             <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide" target="_blank"
-                    rel="noopener noreferrer">Variable fonts</a> allow for variations within a font. Depending on the font, it may
-                be able replace multiple font-files, styles or come with other features that could be useful for responsive
-                typography like an adjustable x-height. <a href="https://fonts.google.com/variablefonts" target="_blank"
-                    rel="noopener noreferrer">Checkout googles list of variable fonts</a>.</p>
+                    rel="noopener noreferrer">Variable fonts</a> allow for variations within a font. Certain variable fonts are able to replace multiple font-files or styles, and some come with other features that could be useful for responsive
+                typography, like an adjustable x-height. <a href="https://fonts.google.com/variablefonts" target="_blank"
+                    rel="noopener noreferrer">Checkout Google's list of variable fonts</a>.</p>
         </section>
         <section>
             <h2>Loading Fonts</h2>
-            <p>If you don’t want to use system fonts you can load custom fonts. To implement your own font you should <a href="https://cloudconvert.com/ttf-to-woff2" target="_blank" rel="noreferrer noopener">convert</a> it to <a href="https://caniuse.com/?search=woff" target="_blank" rel="noreferrer noopener">woff/woff2</a> first, load it with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face" target="_blank" rel="noreferrer noopener">@font-face</a> and set <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display" target="_blank" rel="noreferrer noopener">font-display</a> to swap, so users can see the text even if the font never loads.</p>
+            <p>If you don’t want to use system fonts, you can load custom fonts. To implement your own font, you should <a href="https://cloudconvert.com/ttf-to-woff2" target="_blank" rel="noreferrer noopener">convert</a> it to <a href="https://caniuse.com/?search=woff" target="_blank" rel="noreferrer noopener">woff/woff2</a> first, load it with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face" target="_blank" rel="noreferrer noopener">@font-face</a> and set <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display" target="_blank" rel="noreferrer noopener">font-display</a> to swap, so users can see the text even if the font never loads.</p>
             <ul class="args">
                 <li class="pro">Data privacy</li>
                 <li class="pro">No dependency</li>
@@ -54,7 +53,7 @@
                     on <a href="https://codepen.io">CodePen</a>.</span>
             </p>
             <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-            <p>Alternatively you can use <a href="https://fonts.google.com/" target="_blank" rel="noreferrer noopener">Google Fonts</a> or <a href="https://alternativeto.net/software/google-web-fonts/">any other font service</a> for that matter and use their implementation – usually with a <span class="code-span">&lt;link&gt;</span> or <span class="code-span">&lt;script&gt;</span>-tag in the header of your website.</p>
+            <p>Alternatively, you can turn to <a href="https://fonts.google.com/" target="_blank" rel="noreferrer noopener">Google Fonts</a>, or <a href="https://alternativeto.net/software/google-web-fonts/">any other font service</a> for that matter, and use their implementation – usually with a <span class="code-span">&lt;link&gt;</span> or <span class="code-span">&lt;script&gt;</span>-tag in the header of your website.</p>
                 <ul class="args">
                     <li class="pro">Easy to implement</li>
                     <li class="pro">Character sets & font updates</li>
@@ -75,8 +74,8 @@
             <p>There are countless ways of implementing font-sizes that change depending on the screen size. The following is a
             selection of simple and relevant ways to do so.</p>
             <h3>Adaptive Typography</h3>
-            <p>This approach uses a fixed font-size that will change based on the defined media queries. It’s the classic technique,
-            that’s accessible because users can change the font-size in their browser settings but it comes at the cost of total
+            <p>This approach uses a fixed font-size that will change based on the defined media queries. It’s a classic technique
+            that’s accessible because users can change the font-size in their browser settings, but it comes at the cost of losing total
             control over the layout.</p>
             <ul class="args">
                 <li class="pro">Accessibility</li>
@@ -93,7 +92,7 @@
             </p>
             <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
             <p>
-                You could <a href="https://type-scale.com/" target="_blank" rel="noreferrer noopener">generate a type scale online</a> or just write it in CSS with a combination of <span class="code-span"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc()" target="_blank" rel="noreferrer noopener">calc()</a></span> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties" target="_blank" rel="noreferrer noopener">custom properties</a>. It adds a layer of complexity but allows for a consistent type scale system.
+                You could <a href="https://type-scale.com/" target="_blank" rel="noreferrer noopener">generate a type scale online</a> or just write it in CSS with a combination of <span class="code-span"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc()" target="_blank" rel="noreferrer noopener">calc()</a></span> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties" target="_blank" rel="noreferrer noopener">custom properties</a>. This adds a layer of complexity, but allows for a consistent type scale system.
             </p>
             <ul class="args">
                 <li class="pro">Accessibility</li>
@@ -113,8 +112,8 @@
         <section>
             <h2>Fluid Typography</h2>
             <p>For full control over the layout, the font-size can be set with relative <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units" target="_blank"
-                rel="noreferrer noopener">units</a> like vh, vw, or vmin. Now the typography
-            scales fluidly and retains the width-based layout between screen sizes but can not be easily changed by the user.</p>
+                rel="noreferrer noopener">units</a> like vh, vw or vmin. Now the typography
+            scales fluidly and retain the width-based layout between screen sizes, but it can't be easily changed by the user.</p>
             <ul class="args">
                 <li class="pro">Layout control</li>
                 <li class="pro">Consistency</li>
@@ -129,7 +128,7 @@
                 on <a href="https://codepen.io">CodePen</a>.</span>
         </p>
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-            <p>Or combine that approach with <span class="code-span">
+            <p>Or you could combine the above approach with <span class="code-span">
                 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()" target="_blank" rel="noopener noreferrer">clamp()</a>
             </span> to automatically set min and max values for the font sizes. No media query needed.</p>
             <ul class="args">
@@ -149,7 +148,7 @@
         </section>
         <section>
             <h2>Further Readings & Sources</h2>
-            <p>For the creation of this site I mostly relied on the Mozilla docs but also researched articles covering the topic:</p>
+            <p>For the creation of this site, I mostly relied on the Mozilla docs, but here are a few research articles covering the topic:</p>
             <ul class="sources">
                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/en-US/docs/Web/CSS/</a></li>
                 <li><a href="https://stevenloria.com/responsive-typography/" target="_blank" rel="noopener noreferrer">https://stevenloria.com/responsive-typography/</a></li>
@@ -158,8 +157,13 @@
                 <li><a href="https://css-tricks.com/snippets/css/fluid-typography/" target="_blank" rel="noopener noreferrer">https://css-tricks.com/snippets/css/fluid-typography/</a></li>
                 <li><a href="https://css-tricks.com/simplified-fluid-typography/" target="_blank" rel="noopener noreferrer">https://css-tricks.com/simplified-fluid-typography/</a></li>
                 <li><a href="https://webdesign.tutsplus.com/tutorials/text-overflow-with-css-ellipsis--cms-36634" target="_blank" rel="noopener noreferrer">https://webdesign.tutsplus.com/tutorials/text-overflow-with-css-ellipsis--cms-36634</a></li>
+                <li><a href="https://practicaltypography.com/typography-in-ten-minutes.html" target="_blank" rel="noopener noreferrer">https://practicaltypography.com/typography-in-ten-minutes.html</a></li>
             </ul>
         </section>
+        <footer>
+            <a href="https://paul-wicke.de" target="_blank" rel="noopener noreferrer">Jannis Paul Wicke</a>
+            <p>2021</p>
+        </footer>
     </div>
 </body>
 </html>
