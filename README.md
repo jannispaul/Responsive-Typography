@@ -6,6 +6,8 @@ Public github repository: https://github.com/jannispaul/Responsive-Typography
 Live site: https://responsive-type.vercel.app/
 Collection of code snippets: https://codepen.io/collection/jbOzgK
 
+To run the site locally please use the development server of your choice. For example: https://www.npmjs.com/package/local-web-server
+
 ## Sources
 
 The project doesn't have any dependencies and doesn't use thirdparty code unless marked otherwise. Just plain HTML/CSS/JS.
