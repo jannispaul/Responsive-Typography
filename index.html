@@ -30,7 +30,7 @@
         </section>
         <section>
             <h2>Loading Fonts</h2>
-            <p>If you don’t want to use system fonts you can load custom fonts. To implement your own font you should <a href="https://cloudconvert.com/ttf-to-woff2" target="_blank" rel="noreferrer noopener">convert</a> it to <a href="https://caniuse.com/?search=woff" target="_blank" rel="noreferrer noopener">woff/woff2</a> first, load it with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face" target="_blank" rel="noreferrer noopener">@font-face</a> and set <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display" target="_blank" rel="noreferrer noopener">font-display</a> to swap, so the user can see the text even if the font never loads.</p>
+            <p>If you don’t want to use system fonts you can load custom fonts. To implement your own font you should <a href="https://cloudconvert.com/ttf-to-woff2" target="_blank" rel="noreferrer noopener">convert</a> it to <a href="https://caniuse.com/?search=woff" target="_blank" rel="noreferrer noopener">woff/woff2</a> first, load it with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face" target="_blank" rel="noreferrer noopener">@font-face</a> and set <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display" target="_blank" rel="noreferrer noopener">font-display</a> to swap, so users can see the text even if the font never loads.</p>
             <ul class="args">
                 <li class="pro">Data privacy</li>
                 <li class="pro">No dependency</li>
@@ -70,9 +70,9 @@
             control over the layout.</p>
             <ul class="args">
                 <li class="pro">Accessibility</li>
-                <li class="pro">Simplicty</li>
+                <li class="pro">Simplicity</li>
                 <li class="contra">Layout control</li>
-                <li class="contra">Tends to be inconsitent</li>
+                <li class="contra">Can get inconsitent</li>
             </ul>
             <p class="codepen" data-height="300" data-theme-id="light" data-default-tab="css,result" data-slug-hash="jOmBLWg"
                 data-editable="true" data-user="jay99"
@@ -111,6 +111,17 @@
                 <li class="contra">Accessibility</li>
                 <li class="contra">Complexity</li>
             </ul>
+        <p class="codepen" data-height="300" data-theme-id="light" data-default-tab="css,result" data-slug-hash="bGWqNyE"
+            data-editable="true" data-user="jay99"
+            style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/jay99/pen/bGWqNyE">
+                    Fluid type scale with custom properties</a> by Jay (<a href="https://codepen.io/jay99">@jay99</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p>Or combine that approach with <span class="code-span">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()" target="_blank" rel="noopener noreferrer">clamp()</a>
+            </span> to automatically set min and max values for the font sizes. No media query needed.</p>
             <p class="codepen" data-height="300" data-theme-id="light" data-default-tab="css,result" data-slug-hash="rNmyaEY"
                 data-editable="true" data-user="jay99"
                 style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -130,6 +141,7 @@
         </section>
         <section>
             <h2>Further Readings & Source</h2>
+            <p>For the creation of the site I mostly relied on the Mozilla docs but also researched articles covering the topic.</p>
             <ul class="sources">
                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/en-US/docs/Web/CSS/</a></li>
                 <li><a href="https://stevenloria.com/responsive-typography/" target="_blank" rel="noopener noreferrer">https://stevenloria.com/responsive-typography/</a></li>
@@ -141,6 +153,5 @@
             </ul>
         </section>
     </div>
-    <!-- <script src="/script.js"></script> -->
 </body>
 </html>
